@@ -1,0 +1,29 @@
+body {
+  10   │             font-family: Arial, sans-serif;
+  11   │             margin: 0;
+  12   │             padding: 0;
+  13   │             background-color: #f4f4f4;
+  14   │         }
+  15   │ 
+  16   │         header {
+  17   │             background-color: #333;
+  18   │             padding: 1em;
+  19   │             text-align: center;
+  20   │             color: white;
+  21   │         }
+  22   │ 
+  23   │         section {
+  24   │             padding: 2em;
+  25   │             text-align: center;
+  26   │         }
+  27   │ 
+  28   │         footer {
+  29   │             background-color: #333;
+  30   │             padding: 1em;
+  31   │             text-align: center;
+  32   │             color: white;
+  33   │             position: fixed;
+  34   │             bottom: 0;
+  35   │             width: 100%;
+  36   │         }
+
