@@ -26,3 +26,30 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+form {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  cursor: pointer;
+}
