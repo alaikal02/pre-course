@@ -22,7 +22,7 @@ footer {
   padding: 1em;
   text-align: center;
   color: white;
-  position: fixed;
+  /* (position: fixed) dihapus agar tidak menghalangi 'phone number' dalam section 'contact us' */
   bottom: 0;
   width: 100%;
 }
