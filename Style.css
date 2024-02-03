@@ -5,6 +5,35 @@ body {
   background-color: #f4f4f4;
 }
 
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  z-index: 100; /* Ensure the navbar stays on top of other elements */
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
 header {
   background-color: #333;
   padding: 1em;
@@ -22,7 +51,52 @@ footer {
   padding: 1em;
   text-align: center;
   color: white;
-  position: fixed;
+  /* (position: fixed) dihapus agar tidak menghalangi 'phone number' dalam section 'contact us' */
   bottom: 0;
   width: 100%;
+}
+form {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  cursor: pointer;
+}
+
+/* Adding CSS glow effect on glow class */
+.glow {
+  font-size: 80px;
+  color: #000;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+ 	text-shadow: 0 0 10px #fff, 0 0 20px #FBBF24, 0 0 30px #FBBF24, 0 0 40px #FBBF24, 0 0 50px #FBBF24, 0 0 60px #FBBF24, 0 0 70px #FBBF24;
+    
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #60A5FA, 0 0 50px #60A5FA, 0 0 60px #60A5FA, 0 0 70px #60A5FA, 0 0 80px #60A5FA;
+  }
 }
