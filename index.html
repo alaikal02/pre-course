@@ -50,7 +50,11 @@
       <p>Phone: +123456789</p>
     </section>
     <footer>
-      <p>&copy; 2023 Landing Page. All rights reserved.</p>
+        <p>&copy; <span id="year"></span> Landing Page. All rights reserved.</p>
     </footer>
-  </body>
+    <script>
+    let yearElement = document.getElementById("year")
+    yearElement.textContent = new Date().getFullYear()
+    </script
+</body>
 </html>
