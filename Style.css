@@ -82,3 +82,21 @@ input[type="submit"] {
   cursor: pointer;
 }
 
+/* Adding CSS glow effect on glow class */
+.glow {
+  font-size: 80px;
+  color: #000;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+ 	text-shadow: 0 0 10px #fff, 0 0 20px #FBBF24, 0 0 30px #FBBF24, 0 0 40px #FBBF24, 0 0 50px #FBBF24, 0 0 60px #FBBF24, 0 0 70px #FBBF24;
+    
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #60A5FA, 0 0 50px #60A5FA, 0 0 60px #60A5FA, 0 0 70px #60A5FA, 0 0 80px #60A5FA;
+  }
+}
