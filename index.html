@@ -38,9 +38,13 @@
     </section>
 
     <footer>
-        <!-- perubahan ini dilakukan untuk mengupdate tahun dalam footer menjadi '2024' -->
-        <p>&copy; 2024 Landing Page. All rights reserved.</p>
+        <p>&copy; <span id="year"></span> Landing Page. All rights reserved.</p>
     </footer>
+    
+    <script>
+    let yearElement = document.getElementById("year")
+    yearElement.textContent = new Date().getFullYear()
+    </script
 </body>
 
 </html>
