@@ -1,6 +1,6 @@
 # pre-course
 kerjakan sesuai yang telah ditetapkan
 baca dengan saksama
-repo ini boleh diedit
+repo ini boleh diedit, milik rf
 
 # Jangan lupa untuk melakukan sync fork sebelum melakukan pull request
